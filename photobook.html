@@ -4,7 +4,7 @@
 <title>Photobook</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="fonts/icomoon/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" href="css/simple-line-icons.min.css">
@@ -26,6 +26,7 @@
 <link rel="shortcut icon" href="images/shortcut_icon.png"/>
 </head>
 <body>
+	<a id="button"></a>
 <div class="site-wrap">
 <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
@@ -103,16 +104,15 @@
         </div>
       </div>
       </header>
-
-    <div class="site-blocks-cover overlay inner-page-cover cover-mg name-page" style="background-image: url('images/w-sets.jpg');" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-10 text-center" data-aos="fade-up">
-            <h2>Our Photobooks</h2><br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Nullam id arcu tortor sit ame. </p>
-            
-            <div class="container">
-<!--            	<div class="link-guide">
+  <div class="site-blocks-cover overlay inner-page-cover cover-mg name-page" style="background-image: url('images/w-sets.jpg');" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-10 text-center" data-aos="fade-up">
+          <h2>Our Photobooks</h2>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Nullam id arcu tortor sit ame. </p>
+          <div class="container"> 
+            <!--            	<div class="link-guide">
             		<ol>
             			<li><a href="">1</a></li>
             			<li><a href="">2</a></li>
@@ -120,125 +120,280 @@
             		</ol>
             	</div>-->
             
-            
-				<nav aria-label="breadcrumb text-center">
-				  <ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-					<li class="breadcrumb-item"><a href="photobook.html">Photobook</a></li>
-				  </ol>
-				</nav>
-            </div>
+            <nav aria-label="breadcrumb text-center">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="photobook.html">Photobook</a></li>
+              </ol>
+            </nav>
           </div>
         </div>
       </div>
     </div>
-  <!--Content-->
-	
-<!--<div class="container" style="margin-top: 100px; margin-bottom: 100px">
-    <div class="top-login"> <a  id="trigger-top-login-modal">View</a>
-      <div id="top-login-overlay"></div>
-      <div id="top-login-modal">
-        <div class="flipbook-viewport">
-          <div class="container-z">
-            <div class="flipbook">
-              <div class="page" style="background-image:url(images/photobook/cover.png"></div>
-              <div class="double" style="background-image:url(images/photobook/b1.png)"></div>
-              <div class="double" style="background-image:url(images/photobook/b2.png)"></div>
-              <div class="double" style="background-image:url(images/photobook/b3.png)"></div>
-              <div class="double" style="background-image:url(images/photobook/b4.png)"></div>
-              <div class="page" style="background-image:url(images/photobook/8.png)"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>-->
-  <div class="container" style="margin-top: 100px; margin-bottom: 100px">
-	  
-    <div class="square-album">
+  </div>
   
-<!--<div class="col-md-4 top-login text-center"> 
-	<a  id="trigger-top-login-modal" style="text-align: center">View</a>
-      <div id="top-login-overlay"></div>
-      <div id="top-login-modal">
-        <div class="flipbook-viewport">
-          <div class="container-z">
-            <div class="flipbook">
-              <div class="page" style="background-image:url(images/photobook/cover.png"></div>
-              <div class="double" style="background-image:url(images/photobook/b1.png)"></div>
-              <div class="double" style="background-image:url(images/photobook/b2.png)"></div>
-              <div class="double" style="background-image:url(images/photobook/b3.png)"></div>
-              <div class="double" style="background-image:url(images/photobook/b4.png)"></div>
-              <div class="page" style="background-image:url(images/photobook/8.png)"></div>
-            </div>
+  <!--Modal 1-->
+  <div class="top-login">
+    <div id="top-login-overlay"></div>
+    <div id="top-login-modal">
+      <div class="flipbook-viewport">
+        <div class="container-z">
+          <div class="flipbook">
+            <div class="page" style="background-image:url(images/photobook/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/b1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/b2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/b3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/b4.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/8.png)"></div>
           </div>
         </div>
       </div>
-    </div>-->
-		<div class="row">
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> 
-			
-		 	
-			<a class="image-gradient" id="trigger-top-login-modal" style="cursor:pointer">
-          <figure> <img src="images/photobook/PHOTOBOOK/Nguyen _ Huong - Da Lat/Nguyen _ Huong - Da Lat.png" alt="" class="img-fluid"> </figure>
+    </div>
+  </div>
+  
+  <!--Modal 2-->
+  <div class="top-login">
+    <div id="top-login-overlay2"></div>
+    <div id="top-login-modal2">
+      <div class="flipbook-viewport1">
+        <div class="container-z">
+          <div class="flipbook1">
+            <div class="page" style="background-image:url(images/photobook/2/cover.jpg)"></div>
+            <div class="double" style="background-image:url(images/photobook/2/1.jpg)"></div>
+            <div class="double" style="background-image:url(images/photobook/2/2.jpg)"></div>
+            <div class="double" style="background-image:url(images/photobook/2/3.jpg)"></div>
+            <div class="double" style="background-image:url(images/photobook/2/4.jpg)"></div>
+            <div class="double" style="background-image:url(images/photobook/2/5.jpg)"></div>
+            <div class="page" style="background-image:url(images/photobook/2/cover.jpg)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Modal 3-->
+  <div class="top-login3">
+    <div id="top-login-overlay3"></div>
+    <div id="top-login-modal3">
+      <div class="flipbook-viewport3">
+        <div class="container-z">
+          <div class="flipbook3">
+            <div class="page" style="background-image:url(images/photobook/3/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/3/1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/3/2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/3/3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/3/4.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/3/5.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/3/cover.png)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 	
+  <!--Modal 4-->
+  <div class="top-login4">
+    <div id="top-login-overlay4"></div>
+    <div id="top-login-modal4">
+      <div class="flipbook-viewport4">
+        <div class="container-z">
+          <div class="flipbook4">
+            <div class="page" style="background-image:url(images/photobook/4/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/4.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/5.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/6.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/7.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/8.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/9.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/4/10.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/4/cover.png)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+  <!--Modal 5-->
+  <div class="top-login5">
+    <div id="top-login-overlay5"></div>
+    <div id="top-login-modal5">
+      <div class="flipbook-viewport5">
+        <div class="container-z">
+          <div class="flipbook5">
+            <div class="page" style="background-image:url(images/photobook/5/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/4.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/5.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/6.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/7.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/8.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/9.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/5/10.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/5/cover.png)"></div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+	
+  <!--Modal 6-->
+  <div class="top-login6">
+    <div id="top-login-overlay6"></div>
+    <div id="top-login-modal6">
+      <div class="flipbook-viewport6">
+        <div class="container-z">
+          <div class="flipbook6">
+            <div class="page" style="background-image:url(images/photobook/6/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/4.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/5.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/6.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/7.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/8.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/9.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/6/10.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/6/cover.png)"></div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+	
+  <!--Modal 7-->
+  <div class="top-login7">
+    <div id="top-login-overlay7"></div>
+    <div id="top-login-modal7">
+      <div class="flipbook-viewport7">
+        <div class="container-z">
+          <div class="flipbook7">
+            <div class="page" style="background-image:url(images/photobook/7/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/4.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/5.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/6.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/7.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/8.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/9.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/7/10.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/7/cover.png)"></div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+	
+  <!--Modal 8-->
+<!--  <div class="top-login8">
+    <div id="top-login-overlay8"></div>
+    <div id="top-login-modal8">
+      <div class="flipbook-viewport8">
+        <div class="container-z">
+          <div class="flipbook8">
+            <div class="page" style="background-image:url(images/photobook/8/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/4.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/5.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/6.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/7.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/8/8.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/8/cover.png)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+	
+  <!--Modal 9-->
+  <div class="top-login9">
+    <div id="top-login-overlay9"></div>
+    <div id="top-login-modal9">
+      <div class="flipbook-viewport9">
+        <div class="container-z">
+          <div class="flipbook9">
+            <div class="page" style="background-image:url(images/photobook/9/cover.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/1.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/2.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/3.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/4.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/5.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/6.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/7.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/8.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/9.png)"></div>
+            <div class="double" style="background-image:url(images/photobook/9/10.png)"></div>
+            <div class="page" style="background-image:url(images/photobook/9/cover.png)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Content-->
+  <div class="container" style="margin-top: 100px; margin-bottom: 100px">
+    <div class="square-album">
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal" style="cursor:pointer">
+          <figure> <img src="images/photobook/PHOTOBOOK/Nguyen _ Huong - Da Lat/Nguyen _ Huong - Da Lat.png" alt="" class="img-fluid"> </figure>
           <div class="text">
             <h3>Nguyen & Huong</h3>
-            <span>Click to View</span>
-			
-          </div>
- 
-          </a> </div>
-			
-			
-			
-			
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Hai _ Han - Moc Chau/Hai _ Han - Moc Chau.png" alt="" class="img-fluid"> </figure>
-          <div class="text">
-            <h3>Hai & Han</h3>
             <span>Click to View</span> </div>
           </a> </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Hung _ Tu - Da Lat/Hung _ Tu - Da Lat.png" alt="" class="img-fluid"> </figure>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal2" style="cursor:pointer">
+          <figure> <img src="images/photobook/2/cover.jpg" alt="" class="img-fluid"> </figure>
           <div class="text">
-            <h3>Hung & Tu</h3>
+            <h3>Tan & Mi</h3>
             <span>Click to View</span> </div>
           </a> </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Lam _ May - Nhat Binh/Lam _ May - Nhat Binh.png" alt="" class="img-fluid"> </figure>
-          <div class="text">
-            <h3>Lam & May</h3>
-            <span>Click to View</span> </div>
-          </a> </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Minh _ Phung - Da Lat/Minh _ Phung - Da Lat.png" alt="" class="img-fluid"> </figure>
-          <div class="text">
-            <h3>Minh & Phung</h3>
-            <span>Click to View</span> </div>
-          </a> </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Nghia _ Quynh - Da Lat/Nghia _ Quynh - Da Lat.png" alt="" class="img-fluid"> </figure>
-          <div class="text">
-            <h3>Nghia & Quynh</h3>
-            <span>Click to View</span> </div>
-          </a> </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Quoc _ Nghi - Da Nang/Quoc _ Nghi - Da Nang.png" alt="" class="img-fluid"> </figure>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal3" style="cursor:pointer">
+          <figure> <img src="images/photobook/3/cover.png" alt="" class="img-fluid"> </figure>
           <div class="text">
             <h3>Quoc & Nghi</h3>
             <span>Click to View</span> </div>
           </a> </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Son _ Vy - Tay Bac/Son _ Vy - Tay Bac.png" alt="" class="img-fluid"> </figure>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal4" style="cursor:pointer">
+          <figure> <img src="images/photobook/4/cover.png" alt="" class="img-fluid"> </figure>
+          <div class="text">
+            <h3>Lam & May</h3>
+            <span>Click to View</span> </div>
+          </a> </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal5" style="cursor:pointer">
+          <figure> <img src="images/photobook/5/cover.png" alt="" class="img-fluid"> </figure>
+          <div class="text">
+            <h3>Minh & Phung</h3>
+            <span>Click to View</span> </div>
+          </a> </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal6" style="cursor:pointer">
+          <figure> <img src="images/photobook/6/cover.png" alt="" class="img-fluid"> </figure>
+          <div class="text">
+            <h3>Nghia & Quynh</h3>
+            <span>Click to View</span> </div>
+          </a> </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal7" style="cursor:pointer">
+          <figure> <img src="images/photobook/7/cover.png" alt="" class="img-fluid"> </figure>
+          <div class="text">
+            <h3>Hung & Tu</h3>
+            <span>Click to View</span> </div>
+          </a> </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal8" style="cursor:pointer">
+          <figure> <img src="images/photobook/8/cover.png" alt="" class="img-fluid"> </figure>
           <div class="text">
             <h3>Son & Vy</h3>
             <span>Click to View</span> </div>
           </a> </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" href="single.html">
-          <figure> <img src="images/photobook/PHOTOBOOK/Tan _ Mi - Trung Quoc/Tan _ Mi - Trung Quoc.png" alt="" class="img-fluid"> </figure>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"> <a class="image-gradient" id="trigger-top-login-modal9" style="cursor:pointer">
+          <figure> <img src="images/photobook/9/cover.png" alt="" class="img-fluid"> </figure>
           <div class="text">
-            <h3>Tan & Mi</h3>
+            <h3>Hai & Han</h3>
             <span>Click to View</span> </div>
           </a> </div>
       </div>
@@ -274,7 +429,7 @@
               <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#welcome-1">Services</a></li>
-				<li><a href="#packages">Packages</a></li> 
+                <li><a href="#packages">Packages</a></li>
                 <li><a href="gallery.html">Albums</a></li>
               </ul>
             </div>
@@ -302,8 +457,8 @@
     </div>
   </div>
 </div>
-	
-<div class="top-login"> 
+
+<!--<div class="top-login"> 
   <div id="top-login-overlay"></div>
   <div id="top-login-modal">
 	<div class="flipbook-viewport">
@@ -319,9 +474,8 @@
 	  </div>
 	</div>
   </div>
-</div>	
-	
-	
+</div>	--> 
+
 <script src="js/jquery-3.3.1.min.js"></script> 
 <script src="js/jquery-migrate-3.0.1.min.js"></script> 
 <script src="js/jquery-ui.js"></script> 
@@ -371,6 +525,239 @@ function loadApp() {
 			autoCenter: true
 
 	});
+	
+	
+/*Modal 2*/
+	var flipbook = $('.flipbook1');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook1 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook1').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+	
+/*Modal 3*/
+	var flipbook = $('.flipbook3');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook3 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook3').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+	
+/*Modal 4*/
+	var flipbook = $('.flipbook4');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook4 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook4').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+	
+/*Modal 5*/
+	var flipbook = $('.flipbook5');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook5 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook5').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+	
+/*Modal 6*/
+	var flipbook = $('.flipbook6');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook6 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook6').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+	
+/*Modal 7*/
+	var flipbook = $('.flipbook7');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook7 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook7').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+	
+/*Modal 8*/
+	var flipbook = $('.flipbook8');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook8 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook8').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+	
+/*Modal 9*/
+	var flipbook = $('.flipbook9');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook9 .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook9').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
 }
 
 // Load the HTML4 version if there's not CSS transform
@@ -383,21 +770,11 @@ yepnope({
 	complete: loadApp
 });
 
-</script>
+</script> 
 <script>
     $(document).ready(function(){
       $('#lightgallery').lightGallery();
     });
   </script>
-	
-	
-
-
-
-
-			
-	
-	
-	
 </body>
 </html>

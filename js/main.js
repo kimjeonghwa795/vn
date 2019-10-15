@@ -1,4 +1,20 @@
- AOS.init({
+ /*Back to Top*/
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+AOS.init({
  	duration: 800,
  	easing: 'slide',
  	once: true
@@ -304,8 +320,8 @@ jQuery(document).ready(function($) {
   ga('send', 'pageview');
 
 
-/*Modal*/
-// Get the modal
+/*Modal Photobook*/
+/*Show modal 1 */
 $('#trigger-top-login-modal').click(function(){
     $('#top-login-overlay, #top-login-modal').show();
 	});
@@ -314,9 +330,81 @@ $('#trigger-top-login-modal').click(function(){
 		$('#top-login-overlay, #top-login-modal').hide();
 	});
 
+/*Show modal 2 */
+$('#trigger-top-login-modal2').click(function(){
+    $('#top-login-overlay2, #top-login-modal2').show();
+	});
+
+	$('#top-login-overlay2, #top-login-modal2 span').click(function(){
+		$('#top-login-overlay2, #top-login-modal2').hide();
+	});
+
+/*Show modal 3 */
+$('#trigger-top-login-modal3').click(function(){
+    $('#top-login-overlay3, #top-login-modal3').show();
+	});
+
+	$('#top-login-overlay3, #top-login-modal3 span').click(function(){
+		$('#top-login-overlay3, #top-login-modal3').hide();
+	});
+
+/*Show modal 4 */
+$('#trigger-top-login-modal4').click(function(){
+    $('#top-login-overlay4, #top-login-modal4').show();
+	});
+
+	$('#top-login-overlay4, #top-login-modal4 span').click(function(){
+		$('#top-login-overlay4, #top-login-modal4').hide();
+	});
+
+/*Show modal 5 */
+$('#trigger-top-login-modal5').click(function(){
+    $('#top-login-overlay5, #top-login-modal5').show();
+	});
+
+	$('#top-login-overlay5, #top-login-modal5 span').click(function(){
+		$('#top-login-overlay5, #top-login-modal5').hide();
+	});
+
+/*Show modal 6 */
+$('#trigger-top-login-modal6').click(function(){
+    $('#top-login-overlay6, #top-login-modal6').show();
+	});
+
+	$('#top-login-overlay6, #top-login-modal6 span').click(function(){
+		$('#top-login-overlay6, #top-login-modal6').hide();
+	});
+
+/*Show modal 7 */
+$('#trigger-top-login-modal7').click(function(){
+    $('#top-login-overlay7, #top-login-modal7').show();
+	});
+
+	$('#top-login-overlay7, #top-login-modal7 span').click(function(){
+		$('#top-login-overlay7, #top-login-modal7').hide();
+	});
+
+/*Show modal 8 */
+$('#trigger-top-login-modal8').click(function(){
+    $('#top-login-overlay8, #top-login-modal8').show();
+	});
+
+	$('#top-login-overlay8, #top-login-modal8 span').click(function(){
+		$('#top-login-overlay8, #top-login-modal8').hide();
+	});
+
+/*Show modal 9 */
+$('#trigger-top-login-modal9').click(function(){
+    $('#top-login-overlay9, #top-login-modal9').show();
+	});
+
+	$('#top-login-overlay9, #top-login-modal9 span').click(function(){
+		$('#top-login-overlay9, #top-login-modal9').hide();
+	});
 
 
 
+/*Modal Dress*/
     /*Show modal 1 */
     $('.js-show-modal1').on('click',function(e){
         e.preventDefault();
@@ -347,4 +435,6 @@ $('#trigger-top-login-modal').click(function(){
     $('.js-hide-modal3').on('click',function(){
         $('.js-modal3').removeClass('show-modal3');
     });
+
+
 

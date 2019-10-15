@@ -1,3 +1,71 @@
+
+#button {
+  display: inline-block;
+  /*border: 1px solid #afafaf;*/
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button{transform:rotate(270deg);}
+#button::after {
+  content: "\f178";
+	transform:rotate(90deg);
+	font-family: fontawesome;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  /*color: #afafaf;*/cursor: pointer;color:#ff6f61;
+}
+
+#button:hover::after {
+  /*color: #fff;*/cursor: pointer;
+}
+#button:hover {
+	color: #fff;
+  cursor: pointer;
+  /*background-color: #ff6f61;*/
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;cursor: pointer;color: #fff;
+}
+
+@media (max-width: 480px){
+	#button{
+		  bottom: 25px;
+    right: 10px;
+}
+	.col-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+	
+	.set-include{margin-left: -20px;}
+	
+	}
+
+
+
+@media (max-width:480px){
+	.footer-links-2 #mt-li{ margin-top:15px}
+}
+
 .pagination {
   /*display: inline-block;*/
 	justify-content: center!important;
