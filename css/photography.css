@@ -4,7 +4,7 @@ h3{
 	line-height: 50px;
 }
 .img-responsive{ width: 100%; height: auto}
-.item-content-1{ height: 250px; background: tomato; color: #fff; line-height: 100px}
+/*.item-content-1{ height: 250px; background: tomato; color: #fff; line-height: 100px}*/
 
 .content-2{ postion: relative}
 .content-2-img{ height: 500px; background: tomato; z-index: 1}
