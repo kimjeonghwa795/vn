@@ -100,12 +100,12 @@
 }
 
 .pagination a {
-  color: #4d4d4d;
+  color: #585858;
   float: left;
   padding: 5px 15px;
   text-decoration: none;
 	    font-family: 'Lato', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .pagination a.active {
@@ -113,9 +113,7 @@
   color: white;
 }
 
-.pagination a:hover:not(.active) {background-color: #ddd;}
-
-
+.pagination a:hover:not(.active) {background-color: #ff7c6f; color:#fff}
 
 .filter-custom h3 {
     font-family: 'Lato', sans-serif;
