@@ -1,5 +1,7 @@
+.demo-gallery-poster h3{ font-size: 21.5px;}
+
 .img-responsive{ width: 100%; height: auto;}
-.demo-gallery-poster h3{     margin-top: 25%; margin-bottom:3px}
+.demo-gallery-poster h3{     margin-top: 25%; margin-bottom:-1px}
 .demo-gallery-poster img{     display: none;}
 .demo-gallery-poster:hover img{ display:block}
 .demo-gallery-poster:hover h3{ margin-top: 41%;}

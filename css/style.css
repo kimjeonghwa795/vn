@@ -122,15 +122,15 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 .img-02-mg{ margin-top: -20px}
 
 .number-services h2{
-	font-family: 'Pistilli Regular';
+	font-family: 'Pistilli Regular';    color: #df6244;
 }
 
 .number-services-02 h2{
-	font-family: 'Pistilli Regular';
+	font-family: 'Pistilli Regular';    color: #df6244;
 }
 
 .number-services-03 h2{
-	font-family: 'Pistilli Regular';
+	font-family: 'Pistilli Regular';    color: #df6244;
 }
 
 .feedback-content span{ font-style: italic}
