@@ -100,7 +100,7 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
   opacity: 1;
   visibility: visible;cursor: pointer;color: #fff;
 }
-
+.set-include{margin-left: 10px}
 @media (max-width: 480px){
 	#button{
 		  bottom: 25px;
@@ -113,7 +113,7 @@ src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
     max-width: 75%;
 }
 	
-	.set-include{margin-left: -20px;}
+	.set-include{margin-left: 0px;}
 	
 	}
 
@@ -2570,7 +2570,7 @@ input[type=text], input[type=password]{
 		margin: 50px 0px 50px 0px
 	}
 	.hoavan3{
-		margin: 60px 0px -50px 0px
+		margin: 0px 0px -50px 0px
 	}
 	
 }
@@ -2583,7 +2583,7 @@ input[type=text], input[type=password]{
 		margin: 50px 0px 50px 0px
 	}
 	.hoavan3{
-		margin: 60px 0px -50px 0px
+		margin: -130px 0px -30px 0px
 	}
 	
 	.chevron::before {

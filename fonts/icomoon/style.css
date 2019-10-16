@@ -25,7 +25,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-input{ font-family: montserrat}
+
+
+input{ font-family: 'Lato', sans-serif;}
 .edit-color li a{ color: #fff}
 
 .icon-asterisk:before {
