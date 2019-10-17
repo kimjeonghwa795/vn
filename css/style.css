@@ -255,7 +255,7 @@ option{
 }
 .hovereffect {
 	width: 100%;
-	height: 400px;
+	/*height: 400px;*/
 	float: left;
 	overflow: hidden;
 	position: relative;

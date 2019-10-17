@@ -3,6 +3,11 @@ h3{
 	font-size: 45px;
 	line-height: 50px;
 }
+.overlay-photography{ margin-top:60px}
+.overlay-photography h2{ line-height: 25px; margin-bottom:-20px}
+
+.overlay-photography1{ margin-top:60px}
+.overlay-photography1 h2{ line-height: 20px; margin-bottom:5px}
 .img-responsive{ width: 100%; height: auto}
 /*.item-content-1{ height: 250px; background: tomato; color: #fff; line-height: 100px}*/
 
