@@ -2,7 +2,7 @@
 	width: 90%;
 }
 
-.container-y{ width: 53%; margin: auto}
+.container-y{ width: 70%; margin: auto}
 
 @media (max-width: 1024px) {
 	.ct-form-contact{
