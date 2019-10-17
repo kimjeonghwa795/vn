@@ -12,6 +12,7 @@ font-weight: normal;
 src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
 }
 
+@media (max-width:480px){ .hoavan-jade{ margin-top:-70px} .c-no{margin-top:-70px}}
 .style-price{ font-size: 33px; font-weight: 700; /* margin-top: -20px; */ color: #5d5d5d;}
 .style-name-package{ font-family: 'Playfair Display', serif;; color: #ff6f61; font-weight: bold; margin-bottom: -18px; font-size: 27px;}
 .style-btn{ margin-top: 30px; padding: 12px 28px; background: #ff6f61; font-size: 15px; font-weight: 500; color: #fff; margin-top: 30px}
