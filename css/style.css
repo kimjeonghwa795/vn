@@ -917,7 +917,7 @@ a {
 	font-family: 'icomoon';
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown {
-	visibility: hidden;
+	visibility: hidden; /*width: 200px;*/
 	opacity: 0;
 	top: 100%;
 	position: absolute;
