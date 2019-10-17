@@ -21,7 +21,8 @@ body {
 	background: #000;
 	color: #fff;
 }
-
+.text-center h2{ margin-bottom: 20px}
+.breadcrumb{ margin-top: -10px}
 /*.bg-contact{background-image: url("../../cuong/VITA NOVA/bg hoa van.png"); background-position: right; background-repeat: no-repeat; position: relative; background-size: 28%;}*/
 .bg0 {
     background-color: #fff;
