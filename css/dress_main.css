@@ -3201,7 +3201,7 @@ input.num-product::-webkit-inner-spin-button {
 
 }
 .style-dress{ list-style: none; margin-top: 0; overflow: hidden; /*padding-top: 10px;*/ }
-.style-dress ul li{ float: left; width: 100px; text-align: center;background: #ff6f61;margin: 0px 15px 15px 0px;padding: 8px 25px; color: #fff;}
+.style-dress ul li{ float: left; width: 105px; text-align: center;background: #ff6f61;margin: 0px 15px 15px 0px;padding: 9px 25px; color: #fff;}
 .style-dress ul li:hover{ background: #ff7c6f; color: #fff}
 .tag-style{ background: #ff6f61; height: 26px; line-height: 40px; /*padding: 10px 23px;*/ color: #fff; position: relative; /*margin-right: 15px;*/ width: 100px}
 /*.tag-style:hover{ background: #ff7c6f; color: #fff}*/
