@@ -120,7 +120,9 @@ src: local('Pistilli Regular'), url('../fonts/Pistilli-Roman.woff') format('woff
 	
 	}
 
-
+@media (max-width: 320px){
+	.footer-fix h3{ margin-top: -15px;
+	}}
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{ background: #df6244}
 .img-02-mg{ margin-top: -20px}
 
