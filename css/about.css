@@ -1,3 +1,5 @@
+.test-last{ height: 335px; border: 1px solid tomato;/* margin-left: 20px*/; margin-bottom: 30px}
+.test-last2{ height: 700px; border: 1px solid tomato;/* margin-left: 20px*/}
 .img-responsive {
 	width: 100%;
 	height: auto
