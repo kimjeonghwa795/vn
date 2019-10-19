@@ -51,7 +51,7 @@ background: #ff6f61;
 font-family: 'Pistilli Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Pistilli Regular'), url('../Pistilli-Roman.woff') format('woff');
+src: local('Pistilli Regular'), url('../fonts/Pistilli-Roman.woff') format('woff');
 }
 
 .flo-icon-arrow-line-up:before { content: '\e822'; } /* 'î ¢' */
