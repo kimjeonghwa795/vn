@@ -473,6 +473,29 @@ body{
 }
 }
 
+@media (max-width: 667px){
+.flipbook-viewport1 .flipbook1{
+	width:650px;
+	height:325px;
+	left:-325px;
+	top:-150px;
+}
+
+.flipbook-viewport1 .page{
+	width:325px;
+	height:325px;
+	/*background-color:white;*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook-viewport1 .double{
+	width:650px;
+	height:325px;
+	background-size:100% 100%;
+}
+}
+
 @media (max-width: 568px){
 .flipbook-viewport1 .flipbook1{
 	width:550px;
@@ -2594,6 +2617,8 @@ body{
 }
 }
 
+
+
 @media (max-width: 568px){
 .flipbook-viewport8 .flipbook8{
 	width:550px;
@@ -2950,6 +2975,8 @@ body{
 	background-size:100% 100%;
 }
 }
+
+
 
 @media (max-width: 568px){
 .flipbook-viewport9 .flipbook9{

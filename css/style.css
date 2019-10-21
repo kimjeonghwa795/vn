@@ -2524,13 +2524,13 @@ input[type=text], input[type=password]{
 	
 }
 .hoavan1{
-	margin: 70px 0px 70px 0px
+	margin: 50px 0px 50px 0px
 }
 .hoavan2{
-	margin: 20px 0px 70px 0px
+	margin: 50px 0px 50px 0px
 }
 .hoavan3{
-	margin: 90px 0px 0px 0px
+	margin: 70px 0px -20px 0px
 }
 
 
@@ -2540,10 +2540,10 @@ input[type=text], input[type=password]{
 		margin: 60px 0px 50px 0px
 	}
 	.hoavan2{
-		margin: 50px 0px 50px 0px
+		margin: -100px 0px 50px 0px
 	}
 	.hoavan3{
-		margin: 60px 0px -50px 0px
+		margin: 90px 0px 0px 0px
 	}
 	
 	.chevron::before {
@@ -2570,26 +2570,26 @@ input[type=text], input[type=password]{
 
 @media (max-width: 768px) {
 	.hoavan1{
-		margin: 100px 0px 0px 0px
+		margin: 80px 0px 0px 0px
 	}
 	.hoavan2{
-		margin: -10px 0px 50px 0px
+		margin: 30px 0px 10px 0px
 	}
 	.hoavan3{
-		margin: -100px 0px -20px 0px
+		margin: -120px 0px -40px 0px
 	}
 	
 }
 
 @media (max-width: 480px) {
 	.hoavan1{
-		margin: 60px 0px -10px 0px
+		margin: 30px 0px 10px 0px
 	}
 	.hoavan2{
-		margin: -40px 0px 30px 0px
+		margin: -150px 0px 10px 0px
 	}
 	.hoavan3{
-		margin: -130px 0px -30px 0px
+		margin: -50px 0px -50px 0px
 	}
 	
 	.chevron::before {
@@ -2839,3 +2839,38 @@ footer a .icons {
 	color: #4d4d4d;
 }
 
+@media (max-width: 375px) {
+	.hoavan1{
+		margin: 30px 0px 10px 0px
+	}
+	.hoavan2{
+		margin: -180px 0px 10px 0px
+	}
+	.hoavan3{
+		margin: -50px 0px -50px 0px
+	}
+}
+
+@media (max-width: 360px) {
+	.hoavan1{
+		margin: 30px 0px 10px 0px
+	}
+	.hoavan2{
+		margin: -150px 0px 10px 0px
+	}
+	.hoavan3{
+		margin: -50px 0px -50px 0px
+	}
+}
+
+@media (max-width: 320px) {
+	.hoavan1{
+		margin: 30px 0px 10px 0px
+	}
+	.hoavan2{
+		margin: -210px 0px 10px 0px
+	}
+	.hoavan3{
+		margin: -50px 0px -50px 0px
+	}
+}
