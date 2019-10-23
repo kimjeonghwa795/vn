@@ -309,6 +309,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-outer.lg-thumb-open .lg-thumb-outer {
   -webkit-transform: translate3d(0, 0%, 0);
   transform: translate3d(0, 0%, 0);
+	/*position: absolute;
+    left: 20%;*/
 }
 .lg-outer .lg-thumb {
   padding: 10px 0;

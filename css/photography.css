@@ -8,6 +8,7 @@ h3{
 
 .overlay-photography1{ margin-top:60px}
 .overlay-photography1 h2{ line-height: 20px; margin-bottom:5px}
+.overlay-photography h2 a:hover{ text-decoration: none}
 .img-responsive{ width: 100%; height: auto}
 /*.item-content-1{ height: 250px; background: tomato; color: #fff; line-height: 100px}*/
 
