@@ -510,9 +510,9 @@ input{ font-family: 'Lato', sans-serif;}
 .icon-facebook:before {
   content: "\f09a";
 }
-.icon-facebook:before {
+/*.icon-facebook:before {
   color: #df6244
-}
+}*/
 .icon-facebook:hover:before {
   color: #ff7c6f
 }
